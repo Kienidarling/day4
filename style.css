@@ -36,7 +36,7 @@
   background-color: #88d4c4;
   color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 .price li{
   padding: 15px;
@@ -60,27 +60,11 @@
   text-decoration: none;
   display: inline-block;
 }
-.column::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  font-size: 15px;
-  width: 100%;
-  background-color:#88d4c4 ;
-  color: white;
-  text-align: center;
-}
-footer i{
-  font-size: 15px;
-  padding: 2px;
-}
+
 @media only screen and (max-width: 600px) {
-  .columns,footer {
+  .columns,{
     width: 100%;
+  
+    
   }
 }
